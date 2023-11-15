@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="IRepositories\IUserRepository.cs" />
+    <Compile Remove="IRepositories\IUserRoleMappingRepository.cs" />
+    <Compile Remove="IRepositories\IUserRoleRepository.cs" />
+    <Compile Remove="Repositories\UserRepository.cs" />
+    <Compile Remove="Repositories\UserRoleMappingRepository.cs" />
+    <Compile Remove="Repositories\UserRoleRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VSMDivineUser.Models\VSMDivineUser.Models.csproj" />
+  </ItemGroup>
+
+</Project>
