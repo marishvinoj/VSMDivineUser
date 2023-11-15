@@ -1,0 +1,780 @@
+2023-11-01T11:02:44.4094845+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-01T11:02:44.5062305+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-01T11:02:44.5123797+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-01T11:02:44.5138161+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-01T11:02:44.5141691+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
+2023-11-01T11:02:53.8365925+05:30 [INF] () Start Time 01-11-2023 11:02:53
+2023-11-01T11:02:54.3875227+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:02:54
+2023-11-01T11:02:56.1469953+05:30 [INF] () End Time 01-11-2023 11:02:56
+2023-11-01T11:02:56.8073079+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientList" responded 200 in 4268.0022 ms
+2023-11-01T11:03:28.3807102+05:30 [INF] () Start Time 01-11-2023 11:03:28
+2023-11-01T11:03:28.3808612+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:03:28
+2023-11-01T11:03:28.4122140+05:30 [INF] () End Time 01-11-2023 11:03:28
+2023-11-01T11:03:28.4130670+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientList" responded 200 in 57.7201 ms
+2023-11-01T11:04:26.6717072+05:30 [INF] () Start Time 01-11-2023 11:04:26
+2023-11-01T11:04:26.6720213+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:04:26
+2023-11-01T11:04:26.7159778+05:30 [INF] () End Time 01-11-2023 11:04:26
+2023-11-01T11:04:26.7171482+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 50.2773 ms
+2023-11-01T11:04:34.5285113+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/PatientAddorUpdate" responded 204 in 1.3434 ms
+2023-11-01T11:04:34.5317838+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/PatientAddorUpdate" responded 405 in 0.4272 ms
+2023-11-01T11:04:48.7344709+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/PatientAddorUpdate" responded 204 in 0.4000 ms
+2023-11-01T11:04:48.7402561+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/PatientAddorUpdate" responded 405 in 0.3451 ms
+2023-11-01T11:07:50.9083059+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-01T11:07:51.0579842+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-01T11:07:51.0677018+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-01T11:07:51.0692438+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-01T11:07:51.0695094+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
+2023-11-01T11:07:52.4695906+05:30 [INF] () Start Time 01-11-2023 11:07:52
+2023-11-01T11:07:52.5487800+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:07:52
+2023-11-01T11:07:53.6830783+05:30 [INF] () End Time 01-11-2023 11:07:53
+2023-11-01T11:07:53.8264540+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 2093.0886 ms
+2023-11-01T11:07:57.6821286+05:30 [INF] () Start Time 01-11-2023 11:07:57
+2023-11-01T11:07:57.6826245+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:07:57
+2023-11-01T11:07:57.7792189+05:30 [INF] () End Time 01-11-2023 11:07:57
+2023-11-01T11:07:57.7819528+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 107.1596 ms
+2023-11-01T11:09:06.4476893+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/PatientAddorUpdate" responded 204 in 8.3171 ms
+2023-11-01T11:09:06.4514109+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/PatientAddorUpdate" responded 405 in 0.4129 ms
+2023-11-01T11:10:06.1610090+05:30 [INF] () Start Time 01-11-2023 11:10:06
+2023-11-01T11:10:06.1614536+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:10:06
+2023-11-01T11:10:06.3114381+05:30 [INF] () End Time 01-11-2023 11:10:06
+2023-11-01T11:10:06.3128745+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 155.3493 ms
+2023-11-01T11:10:06.3895473+05:30 [INF] () Start Time 01-11-2023 11:10:06
+2023-11-01T11:10:06.3913364+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:10:06
+2023-11-01T11:10:06.5780847+05:30 [INF] () End Time 01-11-2023 11:10:06
+2023-11-01T11:10:06.5794670+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 190.5955 ms
+2023-11-01T11:10:15.0569938+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/AddPatient" responded 204 in 0.5187 ms
+2023-11-01T11:10:15.0611995+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/AddPatient" responded 405 in 0.2351 ms
+2023-11-01T11:18:08.7209735+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/AddPatient" responded 405 in 0.2190 ms
+2023-11-01T11:18:44.4068857+05:30 [INF] () Start Time 01-11-2023 11:18:44
+2023-11-01T11:18:44.4070561+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:18:44
+2023-11-01T11:18:44.5256257+05:30 [INF] () End Time 01-11-2023 11:18:44
+2023-11-01T11:18:44.5271301+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientList" responded 200 in 120.9814 ms
+2023-11-01T11:19:24.9371427+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-01T11:19:25.0209892+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-01T11:19:25.0256260+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-01T11:19:25.0267275+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-01T11:19:25.0270621+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
+2023-11-01T11:19:49.7787170+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/AddPatient" responded 204 in 30.8877 ms
+2023-11-01T11:20:39.1032252+05:30 [ERR] () Exception:
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlTypes.SqlDateTime..ctor(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteUnterminatedValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory`1.FromAsync(Func`3 beginMethod, Func`2 endMethod, Object state)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at VSMDivineUser.Infrastructure.Repository.PatientRepository.AddAsync(Patient entity) in D:\Anuja\Repos\VSMDivine\VSMDivineUser.Infrastructure\Repository\PatientRepository.cs:line 68
+   at VSMDivineUser.Controllers.PatientController.Add(Patient Patient) in D:\Anuja\Repos\VSMDivine\VSMDivine\Controllers\PatientController.cs:line 99
+2023-11-01T11:20:39.1469387+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/AddPatient" responded 200 in 49363.4357 ms
+2023-11-01T11:20:42.0376331+05:30 [INF] () Start Time 01-11-2023 11:20:42
+2023-11-01T11:20:42.0389299+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:20:42
+2023-11-01T11:20:42.1229445+05:30 [INF] () End Time 01-11-2023 11:20:42
+2023-11-01T11:20:42.1446145+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 142.5438 ms
+2023-11-01T11:21:16.3139700+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/AddPatient" responded 204 in 0.4382 ms
+2023-11-01T11:21:18.0921641+05:30 [ERR] () Exception:
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlTypes.SqlDateTime..ctor(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteUnterminatedValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory`1.FromAsync(Func`3 beginMethod, Func`2 endMethod, Object state)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at VSMDivineUser.Infrastructure.Repository.PatientRepository.AddAsync(Patient entity) in D:\Anuja\Repos\VSMDivine\VSMDivineUser.Infrastructure\Repository\PatientRepository.cs:line 68
+   at VSMDivineUser.Controllers.PatientController.Add(Patient Patient) in D:\Anuja\Repos\VSMDivine\VSMDivine\Controllers\PatientController.cs:line 99
+2023-11-01T11:21:18.0943704+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/AddPatient" responded 200 in 1773.6099 ms
+2023-11-01T11:21:20.1770581+05:30 [INF] () Start Time 01-11-2023 11:21:20
+2023-11-01T11:21:20.1780533+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:21:20
+2023-11-01T11:21:20.3390563+05:30 [INF] () End Time 01-11-2023 11:21:20
+2023-11-01T11:21:20.3400099+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 164.1192 ms
+2023-11-01T11:22:03.5552375+05:30 [INF] () Start Time 01-11-2023 11:22:03
+2023-11-01T11:22:03.5558807+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:22:03
+2023-11-01T11:22:03.6068893+05:30 [INF] () End Time 01-11-2023 11:22:03
+2023-11-01T11:22:03.6072534+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 54.3195 ms
+2023-11-01T11:22:08.3346476+05:30 [INF] () Start Time 01-11-2023 11:22:08
+2023-11-01T11:22:08.3347685+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:22:08
+2023-11-01T11:22:08.4054945+05:30 [INF] () End Time 01-11-2023 11:22:08
+2023-11-01T11:22:08.4064759+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 72.1407 ms
+2023-11-01T11:22:14.1192375+05:30 [INF] () Start Time 01-11-2023 11:22:14
+2023-11-01T11:22:14.1194184+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:22:14
+2023-11-01T11:22:14.1955988+05:30 [INF] () End Time 01-11-2023 11:22:14
+2023-11-01T11:22:14.1962022+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 77.5996 ms
+2023-11-01T11:22:19.0938555+05:30 [INF] () Start Time 01-11-2023 11:22:19
+2023-11-01T11:22:19.0939492+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:22:19
+2023-11-01T11:22:19.1372568+05:30 [INF] () End Time 01-11-2023 11:22:19
+2023-11-01T11:22:19.1376697+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 44.1020 ms
+2023-11-01T11:22:21.9579896+05:30 [INF] () Start Time 01-11-2023 11:22:21
+2023-11-01T11:22:21.9581632+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:22:21
+2023-11-01T11:22:22.0546781+05:30 [INF] () End Time 01-11-2023 11:22:22
+2023-11-01T11:22:22.0554104+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 97.6769 ms
+2023-11-01T11:22:46.4844065+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/AddPatient" responded 204 in 0.9409 ms
+2023-11-01T11:23:06.2256373+05:30 [ERR] () Exception:
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlTypes.SqlDateTime..ctor(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteUnterminatedValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory`1.FromAsync(Func`3 beginMethod, Func`2 endMethod, Object state)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at VSMDivineUser.Infrastructure.Repository.PatientRepository.AddAsync(Patient entity) in D:\Anuja\Repos\VSMDivine\VSMDivineUser.Infrastructure\Repository\PatientRepository.cs:line 68
+   at VSMDivineUser.Controllers.PatientController.Add(Patient Patient) in D:\Anuja\Repos\VSMDivine\VSMDivine\Controllers\PatientController.cs:line 99
+2023-11-01T11:23:06.2268834+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/AddPatient" responded 200 in 19739.1549 ms
+2023-11-01T11:23:16.3376993+05:30 [INF] () Start Time 01-11-2023 11:23:16
+2023-11-01T11:23:16.3378648+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:23:16
+2023-11-01T11:23:16.3820836+05:30 [INF] () End Time 01-11-2023 11:23:16
+2023-11-01T11:23:16.3823993+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 46.3787 ms
+2023-11-01T11:23:56.9310316+05:30 [INF] () Start Time 01-11-2023 11:23:56
+2023-11-01T11:23:56.9338377+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:23:56
+2023-11-01T11:23:57.1259435+05:30 [INF] () End Time 01-11-2023 11:23:57
+2023-11-01T11:23:57.1267819+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 201.9334 ms
+2023-11-01T11:24:13.6769656+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/AddPatient" responded 204 in 0.1781 ms
+2023-11-01T11:32:31.9751924+05:30 [INF] () Start Time 01-11-2023 11:32:31
+2023-11-01T11:32:31.9754439+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:32:31
+2023-11-01T11:32:31.9755233+05:30 [INF] () Start Time 01-11-2023 11:32:31
+2023-11-01T11:32:31.9756725+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:32:31
+2023-11-01T11:32:32.0697597+05:30 [INF] () Start Time 01-11-2023 11:32:32
+2023-11-01T11:32:32.0699927+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:32:32
+2023-11-01T11:32:33.7037906+05:30 [INF] () End Time 01-11-2023 11:32:33
+2023-11-01T11:32:33.7041062+05:30 [INF] () End Time 01-11-2023 11:32:33
+2023-11-01T11:32:33.7045999+05:30 [ERR] () Exception:
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlTypes.SqlDateTime..ctor(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteUnterminatedValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory`1.FromAsync(Func`3 beginMethod, Func`2 endMethod, Object state)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at VSMDivineUser.Infrastructure.Repository.PatientRepository.AddAsync(Patient entity) in D:\Anuja\Repos\VSMDivine\VSMDivineUser.Infrastructure\Repository\PatientRepository.cs:line 68
+   at VSMDivineUser.Controllers.PatientController.Add(Patient Patient) in D:\Anuja\Repos\VSMDivine\VSMDivine\Controllers\PatientController.cs:line 99
+2023-11-01T11:32:33.7047445+05:30 [INF] () End Time 01-11-2023 11:32:33
+2023-11-01T11:32:33.7135705+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 1648.0479 ms
+2023-11-01T11:32:33.7204750+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 1745.3076 ms
+2023-11-01T11:32:33.7205878+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 1746.0926 ms
+2023-11-01T11:32:33.7206134+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/AddPatient" responded 200 in 500040.9376 ms
+2023-11-01T11:42:03.1734504+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-01T11:42:03.2878105+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-01T11:42:03.2934465+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-01T11:42:03.2961013+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-01T11:42:03.2966595+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
+2023-11-01T11:43:11.5065212+05:30 [ERR] () Exception:
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlTypes.SqlDateTime..ctor(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteUnterminatedValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory`1.FromAsync(Func`3 beginMethod, Func`2 endMethod, Object state)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at VSMDivineUser.Infrastructure.Repository.PatientRepository.AddAsync(Patient entity) in D:\Anuja\Repos\VSMDivine\VSMDivineUser.Infrastructure\Repository\PatientRepository.cs:line 68
+   at VSMDivineUser.Controllers.PatientController.Add(Patient Patient) in D:\Anuja\Repos\VSMDivine\VSMDivine\Controllers\PatientController.cs:line 99
+2023-11-01T11:43:11.7458934+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/AddPatient" responded 200 in 67310.4491 ms
+2023-11-01T11:43:57.8167781+05:30 [ERR] () Exception:
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlTypes.SqlDateTime..ctor(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteUnterminatedValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory`1.FromAsync(Func`3 beginMethod, Func`2 endMethod, Object state)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at VSMDivineUser.Infrastructure.Repository.PatientRepository.AddAsync(Patient entity) in D:\Anuja\Repos\VSMDivine\VSMDivineUser.Infrastructure\Repository\PatientRepository.cs:line 68
+   at VSMDivineUser.Controllers.PatientController.Add(Patient Patient) in D:\Anuja\Repos\VSMDivine\VSMDivine\Controllers\PatientController.cs:line 99
+2023-11-01T11:43:57.8224556+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/AddPatient" responded 200 in 35343.8032 ms
+2023-11-01T11:45:52.0957626+05:30 [ERR] () Exception:
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlTypes.SqlDateTime..ctor(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteUnterminatedValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory`1.FromAsync(Func`3 beginMethod, Func`2 endMethod, Object state)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at VSMDivineUser.Infrastructure.Repository.PatientRepository.AddAsync(Patient entity) in D:\Anuja\Repos\VSMDivine\VSMDivineUser.Infrastructure\Repository\PatientRepository.cs:line 68
+   at VSMDivineUser.Controllers.PatientController.Add(Patient Patient) in D:\Anuja\Repos\VSMDivine\VSMDivine\Controllers\PatientController.cs:line 99
+2023-11-01T11:45:52.0994597+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/AddPatient" responded 200 in 50654.3292 ms
+2023-11-01T11:48:43.4820637+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-01T11:48:43.5759083+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-01T11:48:43.5828310+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-01T11:48:43.5873705+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-01T11:48:43.5875800+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
+2023-11-01T11:49:08.9335537+05:30 [ERR] () SQL Exception:
+System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@PatientName".
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at VSMDivineUser.Infrastructure.Repository.PatientRepository.AddAsync(Patient entity) in D:\Anuja\Repos\VSMDivine\VSMDivineUser.Infrastructure\Repository\PatientRepository.cs:line 68
+   at VSMDivineUser.Controllers.PatientController.Add(Patient Patient) in D:\Anuja\Repos\VSMDivine\VSMDivine\Controllers\PatientController.cs:line 99
+ClientConnectionId:97f25f80-7a0c-46de-8ea3-9d53ec5d15c2
+Error Number:137,State:2,Class:15
+2023-11-01T11:49:09.0381766+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/AddPatient" responded 200 in 17148.3008 ms
+2023-11-01T11:51:09.1068780+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-01T11:51:09.3266576+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-01T11:51:09.3873112+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-01T11:51:09.3884654+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-01T11:51:09.3887176+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
+2023-11-01T11:51:10.9158058+05:30 [INF] () Start Time 01-11-2023 11:51:10
+2023-11-01T11:51:11.0082256+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:51:11
+2023-11-01T11:51:12.5643659+05:30 [INF] () End Time 01-11-2023 11:51:12
+2023-11-01T11:51:12.6763164+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 2464.6872 ms
+2023-11-01T11:51:13.2480757+05:30 [INF] () Start Time 01-11-2023 11:51:13
+2023-11-01T11:51:13.2487458+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:51:13
+2023-11-01T11:51:13.3628403+05:30 [INF] () End Time 01-11-2023 11:51:13
+2023-11-01T11:51:13.3646752+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 130.2543 ms
+2023-11-01T11:51:20.9418474+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/AddPatient" responded 204 in 3.1610 ms
+2023-11-01T11:57:19.0069463+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-01T11:57:19.3490967+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-01T11:57:19.3548364+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-01T11:57:19.3559858+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-01T11:57:19.3561825+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
+2023-11-01T11:57:23.3409369+05:30 [INF] () Start Time 01-11-2023 11:57:23
+2023-11-01T11:57:23.4763333+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:57:23
+2023-11-01T11:57:24.0904729+05:30 [INF] () End Time 01-11-2023 11:57:24
+2023-11-01T11:57:24.1635574+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 1227.9635 ms
+2023-11-01T11:59:03.7955504+05:30 [INF] () Start Time 01-11-2023 11:59:03
+2023-11-01T11:59:03.7963312+05:30 [INF] () Patient GetAllAsync 01-11-2023 11:59:03
+2023-11-01T11:59:03.9455438+05:30 [INF] () End Time 01-11-2023 11:59:03
+2023-11-01T11:59:03.9482471+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 186.4565 ms
+2023-11-01T11:59:30.7380568+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/UpdatePatient" responded 204 in 2.1534 ms
+2023-11-01T11:59:30.7416715+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/UpdatePatient" responded 405 in 0.2739 ms
+2023-11-01T12:03:34.0323309+05:30 [INF] () Start Time 01-11-2023 12:03:34
+2023-11-01T12:03:34.0326294+05:30 [INF] () Patient GetAllAsync 01-11-2023 12:03:34
+2023-11-01T12:03:34.1904821+05:30 [INF] () End Time 01-11-2023 12:03:34
+2023-11-01T12:03:34.1918063+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 161.0865 ms
+2023-11-01T12:03:54.7675036+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/UpdatePatient" responded 204 in 0.2597 ms
+2023-11-01T12:03:54.8954716+05:30 [ERR] () Exception:
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlTypes.SqlDateTime..ctor(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteUnterminatedValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory`1.FromAsync(Func`3 beginMethod, Func`2 endMethod, Object state)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at VSMDivineUser.Infrastructure.Repository.PatientRepository.UpdateAsync(Patient entity) in D:\Anuja\Repos\VSMDivine\VSMDivineUser.Infrastructure\Repository\PatientRepository.cs:line 78
+   at VSMDivineUser.Controllers.PatientController.Update(Patient Patient) in D:\Anuja\Repos\VSMDivine\VSMDivine\Controllers\PatientController.cs:line 126
+2023-11-01T12:03:54.9331381+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "PUT" "/Patient/UpdatePatient" responded 200 in 157.6306 ms
+2023-11-01T12:03:57.7042490+05:30 [INF] () Start Time 01-11-2023 12:03:57
+2023-11-01T12:03:57.7044204+05:30 [INF] () Patient GetAllAsync 01-11-2023 12:03:57
+2023-11-01T12:03:57.7403005+05:30 [INF] () End Time 01-11-2023 12:03:57
+2023-11-01T12:03:57.7406553+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 36.6423 ms
+2023-11-01T12:04:12.2995339+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/UpdatePatient" responded 204 in 0.1613 ms
+2023-11-01T12:04:18.8536357+05:30 [ERR] () Exception:
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlTypes.SqlDateTime..ctor(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteUnterminatedValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory`1.FromAsync(Func`3 beginMethod, Func`2 endMethod, Object state)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at VSMDivineUser.Infrastructure.Repository.PatientRepository.UpdateAsync(Patient entity) in D:\Anuja\Repos\VSMDivine\VSMDivineUser.Infrastructure\Repository\PatientRepository.cs:line 78
+   at VSMDivineUser.Controllers.PatientController.Update(Patient Patient) in D:\Anuja\Repos\VSMDivine\VSMDivine\Controllers\PatientController.cs:line 126
+2023-11-01T12:04:18.8549394+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "PUT" "/Patient/UpdatePatient" responded 200 in 6550.1857 ms
+2023-11-01T12:04:20.9050825+05:30 [INF] () Start Time 01-11-2023 12:04:20
+2023-11-01T12:04:20.9052025+05:30 [INF] () Patient GetAllAsync 01-11-2023 12:04:20
+2023-11-01T12:04:20.9540081+05:30 [INF] () End Time 01-11-2023 12:04:20
+2023-11-01T12:04:20.9543700+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 49.8288 ms
+2023-11-01T12:04:46.1119675+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-01T12:04:46.1912682+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-01T12:04:46.1946013+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-01T12:04:46.1953125+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-01T12:04:46.1954377+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
+2023-11-01T12:04:50.2536567+05:30 [INF] () Start Time 01-11-2023 12:04:50
+2023-11-01T12:04:50.3255630+05:30 [INF] () Patient GetAllAsync 01-11-2023 12:04:50
+2023-11-01T12:04:51.1336864+05:30 [INF] () End Time 01-11-2023 12:04:51
+2023-11-01T12:04:51.2440981+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 1307.1989 ms
+2023-11-01T12:04:52.6708512+05:30 [INF] () Start Time 01-11-2023 12:04:52
+2023-11-01T12:04:52.6712832+05:30 [INF] () Patient GetAllAsync 01-11-2023 12:04:52
+2023-11-01T12:04:52.9342122+05:30 [INF] () End Time 01-11-2023 12:04:52
+2023-11-01T12:04:52.9371233+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 283.8095 ms
+2023-11-01T12:04:58.3182659+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/UpdatePatient" responded 204 in 3.1320 ms
+2023-11-01T12:05:04.9093967+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "PUT" "/Patient/UpdatePatient" responded 200 in 6586.2641 ms
+2023-11-01T12:05:07.0522707+05:30 [INF] () Start Time 01-11-2023 12:05:07
+2023-11-01T12:05:07.0524421+05:30 [INF] () Patient GetAllAsync 01-11-2023 12:05:07
+2023-11-01T12:05:07.2189842+05:30 [INF] () End Time 01-11-2023 12:05:07
+2023-11-01T12:05:07.2197699+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 167.8543 ms
+2023-11-01T12:05:12.4014122+05:30 [INF] () Start Time 01-11-2023 12:05:12
+2023-11-01T12:05:12.4021998+05:30 [INF] () Patient GetAllAsync 01-11-2023 12:05:12
+2023-11-01T12:05:12.8017261+05:30 [INF] () End Time 01-11-2023 12:05:12
+2023-11-01T12:05:12.8093431+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 408.4581 ms
+2023-11-01T20:02:41.3764248+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-01T20:02:41.4419784+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-01T20:02:41.4453613+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-01T20:02:41.4460299+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-01T20:02:41.4461312+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
+2023-11-01T20:02:58.1297796+05:30 [INF] () Start Time 01-11-2023 20:02:58
+2023-11-01T20:02:58.3121229+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:02:58
+2023-11-01T20:02:58.7088649+05:30 [INF] () End Time 01-11-2023 20:02:58
+2023-11-01T20:02:58.7430975+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 905.3960 ms
+2023-11-01T20:10:12.8765579+05:30 [INF] () Start Time 01-11-2023 20:10:12
+2023-11-01T20:10:12.8771019+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:10:12
+2023-11-01T20:10:12.9983049+05:30 [INF] () End Time 01-11-2023 20:10:12
+2023-11-01T20:10:13.0002761+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 143.0942 ms
+2023-11-01T20:17:04.8682335+05:30 [INF] () Start Time 01-11-2023 20:17:04
+2023-11-01T20:17:04.8685252+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:17:04
+2023-11-01T20:17:04.9693929+05:30 [INF] () End Time 01-11-2023 20:17:04
+2023-11-01T20:17:04.9709734+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 109.7379 ms
+2023-11-01T20:17:08.2026886+05:30 [INF] () Start Time 01-11-2023 20:17:08
+2023-11-01T20:17:08.2030061+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:17:08
+2023-11-01T20:17:08.2970884+05:30 [INF] () End Time 01-11-2023 20:17:08
+2023-11-01T20:17:08.2977662+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 95.5645 ms
+2023-11-01T20:18:33.6791419+05:30 [INF] () Start Time 01-11-2023 20:18:33
+2023-11-01T20:18:33.6815715+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:18:33
+2023-11-01T20:18:33.7282851+05:30 [INF] () End Time 01-11-2023 20:18:33
+2023-11-01T20:18:33.7286676+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 51.1096 ms
+2023-11-01T20:18:45.8522383+05:30 [INF] () Start Time 01-11-2023 20:18:45
+2023-11-01T20:18:45.8529444+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:18:45
+2023-11-01T20:18:45.9092143+05:30 [INF] () End Time 01-11-2023 20:18:45
+2023-11-01T20:18:45.9096226+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 57.9935 ms
+2023-11-01T20:19:05.0557444+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/UpdatePatient" responded 204 in 1.1966 ms
+2023-11-01T20:19:08.8541227+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "PUT" "/Patient/UpdatePatient" responded 200 in 3796.3365 ms
+2023-11-01T20:19:11.2472968+05:30 [INF] () Start Time 01-11-2023 20:19:11
+2023-11-01T20:19:11.2474066+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:19:11
+2023-11-01T20:19:11.2830762+05:30 [INF] () End Time 01-11-2023 20:19:11
+2023-11-01T20:19:11.2834250+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 36.3995 ms
+2023-11-01T20:19:15.4693518+05:30 [INF] () Start Time 01-11-2023 20:19:15
+2023-11-01T20:19:15.4695822+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:19:15
+2023-11-01T20:19:15.5221725+05:30 [INF] () End Time 01-11-2023 20:19:15
+2023-11-01T20:19:15.5226664+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 53.5774 ms
+2023-11-01T20:27:43.3779827+05:30 [INF] () Start Time 01-11-2023 20:27:43
+2023-11-01T20:27:43.3784369+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:27:43
+2023-11-01T20:27:43.6105177+05:30 [INF] () End Time 01-11-2023 20:27:43
+2023-11-01T20:27:43.6117488+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 234.5943 ms
+2023-11-01T20:29:32.7418115+05:30 [INF] () Start Time 01-11-2023 20:29:32
+2023-11-01T20:29:32.7420431+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:29:32
+2023-11-01T20:29:32.8708718+05:30 [INF] () End Time 01-11-2023 20:29:32
+2023-11-01T20:29:32.8722003+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 132.8629 ms
+2023-11-01T20:31:04.7915904+05:30 [INF] () Start Time 01-11-2023 20:31:04
+2023-11-01T20:31:04.8245592+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:31:04
+2023-11-01T20:31:04.9300744+05:30 [INF] () End Time 01-11-2023 20:31:04
+2023-11-01T20:31:04.9306561+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 139.5977 ms
+2023-11-01T20:31:07.5598043+05:30 [INF] () Start Time 01-11-2023 20:31:07
+2023-11-01T20:31:07.5598925+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:31:07
+2023-11-01T20:31:07.6033017+05:30 [INF] () End Time 01-11-2023 20:31:07
+2023-11-01T20:31:07.6036280+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 43.9844 ms
+2023-11-01T20:31:21.5528205+05:30 [INF] () Start Time 01-11-2023 20:31:21
+2023-11-01T20:31:21.5529196+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:31:21
+2023-11-01T20:31:21.5987783+05:30 [INF] () End Time 01-11-2023 20:31:21
+2023-11-01T20:31:21.5991252+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 46.6026 ms
+2023-11-01T20:32:33.1120625+05:30 [ERR] () Exception:
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlTypes.SqlDateTime..ctor(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteUnterminatedValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at System.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory`1.FromAsync(Func`3 beginMethod, Func`2 endMethod, Object state)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at VSMDivineUser.Infrastructure.Repository.PatientRepository.AddAsync(Patient entity) in D:\Anuja\Repos\VSMDivine\VSMDivineUser.Infrastructure\Repository\PatientRepository.cs:line 68
+   at VSMDivineUser.Controllers.PatientController.Add(Patient Patient) in D:\Anuja\Repos\VSMDivine\VSMDivine\Controllers\PatientController.cs:line 99
+2023-11-01T20:32:33.1533498+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/AddPatient" responded 200 in 35262.1678 ms
+2023-11-01T20:32:38.0928617+05:30 [INF] () Start Time 01-11-2023 20:32:38
+2023-11-01T20:32:38.0929723+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:32:38
+2023-11-01T20:32:38.1718906+05:30 [INF] () End Time 01-11-2023 20:32:38
+2023-11-01T20:32:38.1733414+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientList" responded 200 in 80.7236 ms
+2023-11-01T20:32:50.4485494+05:30 [INF] () Start Time 01-11-2023 20:32:50
+2023-11-01T20:32:50.4486190+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:32:50
+2023-11-01T20:32:50.4917204+05:30 [INF] () End Time 01-11-2023 20:32:50
+2023-11-01T20:32:50.4920088+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 43.7178 ms
+2023-11-01T20:36:40.7923071+05:30 [INF] () Start Time 01-11-2023 20:36:40
+2023-11-01T20:36:40.7931279+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:36:40
+2023-11-01T20:36:41.0055376+05:30 [INF] () End Time 01-11-2023 20:36:41
+2023-11-01T20:36:41.0066519+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 221.4165 ms
+2023-11-01T20:36:46.9064134+05:30 [INF] () Start Time 01-11-2023 20:36:46
+2023-11-01T20:36:46.9065745+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:36:46
+2023-11-01T20:36:47.0135933+05:30 [INF] () End Time 01-11-2023 20:36:47
+2023-11-01T20:36:47.0142120+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 108.2532 ms
+2023-11-01T20:37:43.7843594+05:30 [INF] () Start Time 01-11-2023 20:37:43
+2023-11-01T20:37:43.7853332+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:37:43
+2023-11-01T20:37:43.8355310+05:30 [INF] () End Time 01-11-2023 20:37:43
+2023-11-01T20:37:43.8359675+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 75.3761 ms
+2023-11-01T20:37:55.2802584+05:30 [INF] () Start Time 01-11-2023 20:37:55
+2023-11-01T20:37:55.2803425+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:37:55
+2023-11-01T20:37:55.3312778+05:30 [INF] () End Time 01-11-2023 20:37:55
+2023-11-01T20:37:55.3316879+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 51.6028 ms
+2023-11-01T20:38:24.1167506+05:30 [INF] () Start Time 01-11-2023 20:38:24
+2023-11-01T20:38:24.1168492+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:38:24
+2023-11-01T20:38:24.1664064+05:30 [INF] () End Time 01-11-2023 20:38:24
+2023-11-01T20:38:24.1667801+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 50.7674 ms
+2023-11-01T20:38:33.8364336+05:30 [INF] () Start Time 01-11-2023 20:38:33
+2023-11-01T20:38:33.8365424+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:38:33
+2023-11-01T20:38:33.9422094+05:30 [INF] () End Time 01-11-2023 20:38:33
+2023-11-01T20:38:33.9430082+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 106.8073 ms
+2023-11-01T20:44:52.3013938+05:30 [INF] () Start Time 01-11-2023 20:44:52
+2023-11-01T20:44:52.3015072+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:44:52
+2023-11-01T20:44:52.3523312+05:30 [INF] () End Time 01-11-2023 20:44:52
+2023-11-01T20:44:52.3526857+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 51.6274 ms
+2023-11-01T20:45:00.5853391+05:30 [INF] () Start Time 01-11-2023 20:45:00
+2023-11-01T20:45:00.5855603+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:45:00
+2023-11-01T20:45:00.7173243+05:30 [INF] () End Time 01-11-2023 20:45:00
+2023-11-01T20:45:00.7180058+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 133.0248 ms
+2023-11-01T20:49:55.9118849+05:30 [INF] () Start Time 01-11-2023 20:49:55
+2023-11-01T20:49:55.9120984+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:49:55
+2023-11-01T20:49:56.0654978+05:30 [INF] () End Time 01-11-2023 20:49:56
+2023-11-01T20:49:56.0660975+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 154.8620 ms
+2023-11-01T20:55:59.3243293+05:30 [INF] () Start Time 01-11-2023 20:55:59
+2023-11-01T20:55:59.3278887+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:55:59
+2023-11-01T20:55:59.3970238+05:30 [INF] () End Time 01-11-2023 20:55:59
+2023-11-01T20:55:59.3974632+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 74.4058 ms
+2023-11-01T20:57:41.9485101+05:30 [INF] () Start Time 01-11-2023 20:57:41
+2023-11-01T20:57:41.9487187+05:30 [INF] () Patient GetAllAsync 01-11-2023 20:57:41
+2023-11-01T20:57:42.1242318+05:30 [INF] () End Time 01-11-2023 20:57:42
+2023-11-01T20:57:42.1250900+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientList" responded 200 in 177.0621 ms
+2023-11-01T21:31:29.7200698+05:30 [INF] () Start Time 01-11-2023 21:31:29
+2023-11-01T21:31:29.7207122+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:31:29
+2023-11-01T21:31:29.9413442+05:30 [INF] () End Time 01-11-2023 21:31:29
+2023-11-01T21:31:29.9422210+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 223.2881 ms
+2023-11-01T21:32:06.2419128+05:30 [INF] () Start Time 01-11-2023 21:32:06
+2023-11-01T21:32:06.2431391+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:32:06
+2023-11-01T21:32:06.3699392+05:30 [INF] () End Time 01-11-2023 21:32:06
+2023-11-01T21:32:06.3705659+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 134.4919 ms
+2023-11-01T21:32:32.5887209+05:30 [INF] () Start Time 01-11-2023 21:32:32
+2023-11-01T21:32:32.5889991+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:32:32
+2023-11-01T21:32:32.7439405+05:30 [INF] () End Time 01-11-2023 21:32:32
+2023-11-01T21:32:32.7446911+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 157.4289 ms
+2023-11-01T21:32:48.5526762+05:30 [INF] () Start Time 01-11-2023 21:32:48
+2023-11-01T21:32:48.5528985+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:32:48
+2023-11-01T21:32:48.6940942+05:30 [INF] () End Time 01-11-2023 21:32:48
+2023-11-01T21:32:48.6952923+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 144.3213 ms
+2023-11-01T21:34:05.5308078+05:30 [INF] () Start Time 01-11-2023 21:34:05
+2023-11-01T21:34:05.5317589+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:34:05
+2023-11-01T21:34:05.5960885+05:30 [INF] () End Time 01-11-2023 21:34:05
+2023-11-01T21:34:05.5964594+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 66.0844 ms
+2023-11-01T21:35:31.9482036+05:30 [INF] () Start Time 01-11-2023 21:35:31
+2023-11-01T21:35:31.9485182+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:35:31
+2023-11-01T21:35:32.0776726+05:30 [INF] () End Time 01-11-2023 21:35:32
+2023-11-01T21:35:32.0781825+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 130.8151 ms
+2023-11-01T21:35:37.7832170+05:30 [INF] () Start Time 01-11-2023 21:35:37
+2023-11-01T21:35:37.7834202+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:35:37
+2023-11-01T21:35:38.0181692+05:30 [INF] () End Time 01-11-2023 21:35:38
+2023-11-01T21:35:38.0190600+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 236.0695 ms
+2023-11-01T21:36:15.8184452+05:30 [INF] () Start Time 01-11-2023 21:36:15
+2023-11-01T21:36:15.8188271+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:36:15
+2023-11-01T21:36:15.9682493+05:30 [INF] () End Time 01-11-2023 21:36:15
+2023-11-01T21:36:15.9688665+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 151.2694 ms
+2023-11-01T21:36:26.1691761+05:30 [INF] () Start Time 01-11-2023 21:36:26
+2023-11-01T21:36:26.1693985+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:36:26
+2023-11-01T21:36:26.2760702+05:30 [INF] () End Time 01-11-2023 21:36:26
+2023-11-01T21:36:26.2768793+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 108.7558 ms
+2023-11-01T21:38:42.5913772+05:30 [INF] () Start Time 01-11-2023 21:38:42
+2023-11-01T21:38:42.5925146+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:38:42
+2023-11-01T21:38:43.3390917+05:30 [INF] () End Time 01-11-2023 21:38:43
+2023-11-01T21:38:43.3397444+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 748.8162 ms
+2023-11-01T21:38:48.2004500+05:30 [INF] () Start Time 01-11-2023 21:38:48
+2023-11-01T21:38:48.2006125+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:38:48
+2023-11-01T21:38:48.3401958+05:30 [INF] () End Time 01-11-2023 21:38:48
+2023-11-01T21:38:48.3408306+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 140.5894 ms
+2023-11-01T21:39:01.9594095+05:30 [INF] () Start Time 01-11-2023 21:39:01
+2023-11-01T21:39:01.9596473+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:39:01
+2023-11-01T21:39:02.0165071+05:30 [INF] () End Time 01-11-2023 21:39:02
+2023-11-01T21:39:02.0168066+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 57.5429 ms
+2023-11-01T21:40:49.7161685+05:30 [INF] () Start Time 01-11-2023 21:40:49
+2023-11-01T21:40:49.7183440+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:40:49
+2023-11-01T21:40:49.9502689+05:30 [INF] () End Time 01-11-2023 21:40:49
+2023-11-01T21:40:49.9508307+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 240.7921 ms
+2023-11-01T21:41:17.2456012+05:30 [INF] () Start Time 01-11-2023 21:41:17
+2023-11-01T21:41:17.2457565+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:41:17
+2023-11-01T21:41:17.3626956+05:30 [INF] () End Time 01-11-2023 21:41:17
+2023-11-01T21:41:17.3632817+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 118.3425 ms
+2023-11-01T21:41:25.5179020+05:30 [INF] () Start Time 01-11-2023 21:41:25
+2023-11-01T21:41:25.5180646+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:41:25
+2023-11-01T21:41:25.6366830+05:30 [INF] () End Time 01-11-2023 21:41:25
+2023-11-01T21:41:25.6380293+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 120.3401 ms
+2023-11-01T21:42:25.9767558+05:30 [INF] () Start Time 01-11-2023 21:42:25
+2023-11-01T21:42:25.9769546+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:42:25
+2023-11-01T21:42:26.1895907+05:30 [INF] () End Time 01-11-2023 21:42:26
+2023-11-01T21:42:26.1902199+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 213.6815 ms
+2023-11-01T21:43:01.5187646+05:30 [INF] () Start Time 01-11-2023 21:43:01
+2023-11-01T21:43:01.5192508+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:43:01
+2023-11-01T21:43:01.7674970+05:30 [INF] () End Time 01-11-2023 21:43:01
+2023-11-01T21:43:01.7704745+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 252.5145 ms
+2023-11-01T21:43:11.1114270+05:30 [INF] () Start Time 01-11-2023 21:43:11
+2023-11-01T21:43:11.1115739+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:43:11
+2023-11-01T21:43:11.2058908+05:30 [INF] () End Time 01-11-2023 21:43:11
+2023-11-01T21:43:11.2063355+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 95.5440 ms
+2023-11-01T21:43:48.2039618+05:30 [INF] () Start Time 01-11-2023 21:43:48
+2023-11-01T21:43:48.2065260+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:43:48
+2023-11-01T21:43:48.3857597+05:30 [INF] () End Time 01-11-2023 21:43:48
+2023-11-01T21:43:48.3863234+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 182.9731 ms
+2023-11-01T21:44:28.7158120+05:30 [INF] () Start Time 01-11-2023 21:44:28
+2023-11-01T21:44:28.7159631+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:44:28
+2023-11-01T21:44:28.8671226+05:30 [INF] () End Time 01-11-2023 21:44:28
+2023-11-01T21:44:28.8676680+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 152.0963 ms
+2023-11-01T21:46:26.9331323+05:30 [INF] () Start Time 01-11-2023 21:46:26
+2023-11-01T21:46:26.9337153+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:46:26
+2023-11-01T21:46:27.0884059+05:30 [INF] () End Time 01-11-2023 21:46:27
+2023-11-01T21:46:27.0910175+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 159.1599 ms
+2023-11-01T21:46:43.3658113+05:30 [INF] () Start Time 01-11-2023 21:46:43
+2023-11-01T21:46:43.3659092+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:46:43
+2023-11-01T21:46:43.4214234+05:30 [INF] () End Time 01-11-2023 21:46:43
+2023-11-01T21:46:43.4217780+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 56.1004 ms
+2023-11-01T21:46:49.0782791+05:30 [INF] () Start Time 01-11-2023 21:46:49
+2023-11-01T21:46:49.0784072+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:46:49
+2023-11-01T21:46:49.2288863+05:30 [INF] () End Time 01-11-2023 21:46:49
+2023-11-01T21:46:49.2294105+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 151.3572 ms
+2023-11-01T21:52:01.2263865+05:30 [INF] () Start Time 01-11-2023 21:52:01
+2023-11-01T21:52:01.2267943+05:30 [INF] () Patient GetAllAsync 01-11-2023 21:52:01
+2023-11-01T21:52:01.5017565+05:30 [INF] () End Time 01-11-2023 21:52:01
+2023-11-01T21:52:01.5025585+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 276.6243 ms
+2023-11-01T22:14:47.5479264+05:30 [INF] () Start Time 01-11-2023 22:14:47
+2023-11-01T22:14:47.5483653+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:14:47
+2023-11-01T22:14:47.7654359+05:30 [INF] () End Time 01-11-2023 22:14:47
+2023-11-01T22:14:47.7660831+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 218.6713 ms
+2023-11-01T22:14:50.4743998+05:30 [INF] () Start Time 01-11-2023 22:14:50
+2023-11-01T22:14:50.4746011+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:14:50
+2023-11-01T22:14:50.8413385+05:30 [INF] () End Time 01-11-2023 22:14:50
+2023-11-01T22:14:50.8424885+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 368.3315 ms
+2023-11-01T22:14:59.2582354+05:30 [INF] () Start Time 01-11-2023 22:14:59
+2023-11-01T22:14:59.2583987+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:14:59
+2023-11-01T22:14:59.3946240+05:30 [INF] () End Time 01-11-2023 22:14:59
+2023-11-01T22:14:59.3951831+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 137.1587 ms
+2023-11-01T22:15:16.0039788+05:30 [INF] () Start Time 01-11-2023 22:15:16
+2023-11-01T22:15:16.0040578+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:15:16
+2023-11-01T22:15:16.0538082+05:30 [INF] () End Time 01-11-2023 22:15:16
+2023-11-01T22:15:16.0540548+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 50.3460 ms
+2023-11-01T22:17:21.0319395+05:30 [INF] () Start Time 01-11-2023 22:17:21
+2023-11-01T22:17:21.0320677+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:17:21
+2023-11-01T22:17:21.1654364+05:30 [INF] () End Time 01-11-2023 22:17:21
+2023-11-01T22:17:21.1660731+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 134.3496 ms
+2023-11-01T22:20:31.8347693+05:30 [INF] () Start Time 01-11-2023 22:20:31
+2023-11-01T22:20:31.8354803+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:20:31
+2023-11-01T22:20:31.9994939+05:30 [INF] () End Time 01-11-2023 22:20:31
+2023-11-01T22:20:32.0002435+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 166.1994 ms
+2023-11-01T22:20:52.5970114+05:30 [INF] () Start Time 01-11-2023 22:20:52
+2023-11-01T22:20:52.5971377+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:20:52
+2023-11-01T22:20:52.6692899+05:30 [INF] () End Time 01-11-2023 22:20:52
+2023-11-01T22:20:52.6700778+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 73.2072 ms
+2023-11-01T22:21:11.8864120+05:30 [INF] () Start Time 01-11-2023 22:21:11
+2023-11-01T22:21:11.8865083+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:21:11
+2023-11-01T22:21:11.9553837+05:30 [INF] () End Time 01-11-2023 22:21:11
+2023-11-01T22:21:11.9557035+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 69.4159 ms
+2023-11-01T22:23:59.7769927+05:30 [INF] () Start Time 01-11-2023 22:23:59
+2023-11-01T22:23:59.7773265+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:23:59
+2023-11-01T22:23:59.8991243+05:30 [INF] () End Time 01-11-2023 22:23:59
+2023-11-01T22:23:59.8998189+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 124.0168 ms
+2023-11-01T22:24:17.2787891+05:30 [INF] () Start Time 01-11-2023 22:24:17
+2023-11-01T22:24:17.2789479+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:24:17
+2023-11-01T22:24:17.3757882+05:30 [INF] () End Time 01-11-2023 22:24:17
+2023-11-01T22:24:17.3764147+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 98.0197 ms
+2023-11-01T22:25:29.0652570+05:30 [INF] () Start Time 01-11-2023 22:25:29
+2023-11-01T22:25:29.0654655+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:25:29
+2023-11-01T22:25:29.2488014+05:30 [INF] () End Time 01-11-2023 22:25:29
+2023-11-01T22:25:29.2492688+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 184.4492 ms
+2023-11-01T22:27:11.1226246+05:30 [INF] () Start Time 01-11-2023 22:27:11
+2023-11-01T22:27:11.1227387+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:27:11
+2023-11-01T22:27:11.1675260+05:30 [INF] () End Time 01-11-2023 22:27:11
+2023-11-01T22:27:11.1679192+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 46.5364 ms
+2023-11-01T22:27:38.0026325+05:30 [INF] () Start Time 01-11-2023 22:27:38
+2023-11-01T22:27:38.0028036+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:27:38
+2023-11-01T22:27:38.2172051+05:30 [INF] () End Time 01-11-2023 22:27:38
+2023-11-01T22:27:38.2182141+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 215.7975 ms
+2023-11-01T22:29:01.5536897+05:30 [INF] () Start Time 01-11-2023 22:29:01
+2023-11-01T22:29:01.5538154+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:29:01
+2023-11-01T22:29:01.6098272+05:30 [INF] () End Time 01-11-2023 22:29:01
+2023-11-01T22:29:01.6100634+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 56.5644 ms
+2023-11-01T22:30:19.9844763+05:30 [INF] () Start Time 01-11-2023 22:30:19
+2023-11-01T22:30:19.9846560+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:30:19
+2023-11-01T22:30:20.1608024+05:30 [INF] () End Time 01-11-2023 22:30:20
+2023-11-01T22:30:20.1613213+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 177.0328 ms
+2023-11-01T22:30:32.9047158+05:30 [INF] () Start Time 01-11-2023 22:30:32
+2023-11-01T22:30:32.9049093+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:30:32
+2023-11-01T22:30:32.9986920+05:30 [INF] () End Time 01-11-2023 22:30:32
+2023-11-01T22:30:32.9991108+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 94.6141 ms
+2023-11-01T22:32:01.9354884+05:30 [INF] () Start Time 01-11-2023 22:32:01
+2023-11-01T22:32:01.9356811+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:32:01
+2023-11-01T22:32:02.0504570+05:30 [INF] () End Time 01-11-2023 22:32:02
+2023-11-01T22:32:02.0508706+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 115.9490 ms
+2023-11-01T22:32:09.8686850+05:30 [INF] () Start Time 01-11-2023 22:32:09
+2023-11-01T22:32:09.8688652+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:32:09
+2023-11-01T22:32:10.0183392+05:30 [INF] () End Time 01-11-2023 22:32:10
+2023-11-01T22:32:10.0187840+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 150.3263 ms
+2023-11-01T22:56:29.9372928+05:30 [INF] () Start Time 01-11-2023 22:56:29
+2023-11-01T22:56:29.9377038+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:56:29
+2023-11-01T22:56:30.0754625+05:30 [INF] () End Time 01-11-2023 22:56:30
+2023-11-01T22:56:30.0762654+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 139.3585 ms
+2023-11-01T22:56:58.8357610+05:30 [INF] () Start Time 01-11-2023 22:56:58
+2023-11-01T22:56:58.8359030+05:30 [INF] () Patient GetAllAsync 01-11-2023 22:56:58
+2023-11-01T22:56:58.9836692+05:30 [INF] () End Time 01-11-2023 22:56:58
+2023-11-01T22:56:58.9843139+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 148.8371 ms
+2023-11-01T23:00:24.0761447+05:30 [INF] () Start Time 01-11-2023 23:00:24
+2023-11-01T23:00:24.0762819+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:00:24
+2023-11-01T23:00:24.1450989+05:30 [INF] () End Time 01-11-2023 23:00:24
+2023-11-01T23:00:24.1453454+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 69.3718 ms
+2023-11-01T23:04:54.1889976+05:30 [INF] () Start Time 01-11-2023 23:04:54
+2023-11-01T23:04:54.1892852+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:04:54
+2023-11-01T23:04:54.4510439+05:30 [INF] () End Time 01-11-2023 23:04:54
+2023-11-01T23:04:54.4520402+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 263.6184 ms
+2023-11-01T23:05:08.5910332+05:30 [INF] () Start Time 01-11-2023 23:05:08
+2023-11-01T23:05:08.5911895+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:05:08
+2023-11-01T23:05:08.7937564+05:30 [INF] () End Time 01-11-2023 23:05:08
+2023-11-01T23:05:08.7956472+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 204.8419 ms
+2023-11-01T23:05:59.0397170+05:30 [INF] () Start Time 01-11-2023 23:05:59
+2023-11-01T23:05:59.0399931+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:05:59
+2023-11-01T23:05:59.2343559+05:30 [INF] () End Time 01-11-2023 23:05:59
+2023-11-01T23:05:59.2349241+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 195.4022 ms
+2023-11-01T23:18:49.8922073+05:30 [INF] () Start Time 01-11-2023 23:18:49
+2023-11-01T23:18:49.8923603+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:18:49
+2023-11-01T23:18:50.1962415+05:30 [INF] () End Time 01-11-2023 23:18:50
+2023-11-01T23:18:50.1966804+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 304.7381 ms
+2023-11-01T23:21:04.9329160+05:30 [INF] () Start Time 01-11-2023 23:21:04
+2023-11-01T23:21:04.9332112+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:21:04
+2023-11-01T23:21:04.9844380+05:30 [INF] () End Time 01-11-2023 23:21:04
+2023-11-01T23:21:04.9851882+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 52.4514 ms
+2023-11-01T23:21:36.7981068+05:30 [INF] () Start Time 01-11-2023 23:21:36
+2023-11-01T23:21:36.7982684+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:21:36
+2023-11-01T23:21:37.0200023+05:30 [INF] () End Time 01-11-2023 23:21:37
+2023-11-01T23:21:37.0206119+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 222.7049 ms
+2023-11-01T23:22:09.4734063+05:30 [INF] () Start Time 01-11-2023 23:22:09
+2023-11-01T23:22:09.4736651+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:22:09
+2023-11-01T23:22:09.5255601+05:30 [INF] () End Time 01-11-2023 23:22:09
+2023-11-01T23:22:09.5258027+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 52.5440 ms
+2023-11-01T23:22:30.3770769+05:30 [INF] () Start Time 01-11-2023 23:22:30
+2023-11-01T23:22:30.3771930+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:22:30
+2023-11-01T23:22:30.4591512+05:30 [INF] () End Time 01-11-2023 23:22:30
+2023-11-01T23:22:30.4600797+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 83.4708 ms
+2023-11-01T23:23:03.8820149+05:30 [INF] () Start Time 01-11-2023 23:23:03
+2023-11-01T23:23:03.8821614+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:23:03
+2023-11-01T23:23:04.0192650+05:30 [INF] () End Time 01-11-2023 23:23:04
+2023-11-01T23:23:04.0196809+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 138.3245 ms
+2023-11-01T23:23:28.6462611+05:30 [INF] () Start Time 01-11-2023 23:23:28
+2023-11-01T23:23:28.6464994+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:23:28
+2023-11-01T23:23:28.8695589+05:30 [INF] () End Time 01-11-2023 23:23:28
+2023-11-01T23:23:28.8704071+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 223.9579 ms
+2023-11-01T23:23:44.9862429+05:30 [INF] () Start Time 01-11-2023 23:23:44
+2023-11-01T23:23:44.9863195+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:23:44
+2023-11-01T23:23:45.0354973+05:30 [INF] () End Time 01-11-2023 23:23:45
+2023-11-01T23:23:45.0357542+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 49.7116 ms
+2023-11-01T23:23:55.0806305+05:30 [INF] () Start Time 01-11-2023 23:23:55
+2023-11-01T23:23:55.0809166+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:23:55
+2023-11-01T23:23:55.2453275+05:30 [INF] () End Time 01-11-2023 23:23:55
+2023-11-01T23:23:55.2461763+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 165.7661 ms
+2023-11-01T23:25:53.7892065+05:30 [INF] () Start Time 01-11-2023 23:25:53
+2023-11-01T23:25:53.7894093+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:25:53
+2023-11-01T23:25:54.0241083+05:30 [INF] () End Time 01-11-2023 23:25:54
+2023-11-01T23:25:54.0247008+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 235.8553 ms
+2023-11-01T23:26:04.8061817+05:30 [INF] () Start Time 01-11-2023 23:26:04
+2023-11-01T23:26:04.8097023+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:26:04
+2023-11-01T23:26:04.9596293+05:30 [INF] () End Time 01-11-2023 23:26:04
+2023-11-01T23:26:04.9602448+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 161.4461 ms
+2023-11-01T23:27:10.9807356+05:30 [INF] () Start Time 01-11-2023 23:27:10
+2023-11-01T23:27:10.9826655+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:27:10
+2023-11-01T23:27:11.1159357+05:30 [INF] () End Time 01-11-2023 23:27:11
+2023-11-01T23:27:11.1165130+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 136.5423 ms
+2023-11-01T23:27:39.1242894+05:30 [INF] () Start Time 01-11-2023 23:27:39
+2023-11-01T23:27:39.1244489+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:27:39
+2023-11-01T23:27:39.2458393+05:30 [INF] () End Time 01-11-2023 23:27:39
+2023-11-01T23:27:39.2464847+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 122.3817 ms
+2023-11-01T23:29:29.9583918+05:30 [INF] () Start Time 01-11-2023 23:29:29
+2023-11-01T23:29:29.9585453+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:29:29
+2023-11-01T23:29:30.1133393+05:30 [INF] () End Time 01-11-2023 23:29:30
+2023-11-01T23:29:30.1144352+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 156.7184 ms
+2023-11-01T23:29:33.9653964+05:30 [INF] () Start Time 01-11-2023 23:29:33
+2023-11-01T23:29:33.9655596+05:30 [INF] () Patient GetAllAsync 01-11-2023 23:29:33
+2023-11-01T23:29:34.1216108+05:30 [INF] () End Time 01-11-2023 23:29:34
+2023-11-01T23:29:34.1222068+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/patient/GetPatientList" responded 200 in 157.0119 ms

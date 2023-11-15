@@ -1,0 +1,199 @@
+2023-11-08T12:19:33.6486681+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-08T12:19:33.7384942+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-08T12:19:33.7442243+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-08T12:19:33.7451413+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-08T12:19:33.7453438+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
+2023-11-08T13:46:20.0100912+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 135.1627 ms
+2023-11-08T13:46:22.4923061+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 2455.3157 ms
+2023-11-08T13:54:35.7808627+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 16.5287 ms
+2023-11-08T13:54:35.8622097+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 68.7903 ms
+2023-11-08T13:54:46.7895939+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.1203 ms
+2023-11-08T13:54:46.8079901+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 13.6395 ms
+2023-11-08T13:58:40.5714598+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Patient/GetPatientById" responded 405 in 0.4778 ms
+2023-11-08T13:58:46.3966052+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 8.4889 ms
+2023-11-08T14:00:12.5270609+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 66868.7812 ms
+2023-11-08T14:01:22.6486139+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 28136.3137 ms
+2023-11-08T14:02:04.1775860+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-08T14:02:04.2491930+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-08T14:02:04.2541703+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-08T14:02:04.2549479+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-08T14:02:04.2550754+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
+2023-11-08T14:02:39.4249338+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 15394.1115 ms
+2023-11-08T14:03:06.4003167+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-08T14:03:06.4819808+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-08T14:03:06.4854763+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-08T14:03:06.4861613+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-08T14:03:06.4862708+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
+2023-11-08T14:05:39.2677752+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-08T14:05:39.3423717+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-08T14:05:39.3468893+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-08T14:05:39.3475933+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-08T14:05:39.3477308+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
+2023-11-08T14:05:48.5029071+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 121.6949 ms
+2023-11-08T14:06:20.1852880+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 31664.4104 ms
+2023-11-08T14:07:04.8639831+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 8.0486 ms
+2023-11-08T14:07:08.1861001+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 3316.1027 ms
+2023-11-08T14:07:59.2960503+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.1910 ms
+2023-11-08T14:08:01.1059298+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 1804.1065 ms
+2023-11-08T14:10:12.3289646+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.4241 ms
+2023-11-08T14:10:35.2779704+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 22931.7068 ms
+2023-11-08T14:10:57.9094041+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.3524 ms
+2023-11-08T14:10:57.9250215+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 8.2449 ms
+2023-11-08T17:04:30.7917132+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 5.1505 ms
+2023-11-08T17:04:30.8515780+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 46.7469 ms
+2023-11-08T17:04:50.3601830+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.7952 ms
+2023-11-08T17:04:50.3730524+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 8.1677 ms
+2023-11-08T17:09:13.2686469+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 2.5275 ms
+2023-11-08T17:09:13.3039068+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 8.2962 ms
+2023-11-08T17:09:20.4189567+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.5583 ms
+2023-11-08T17:09:20.4711634+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 46.6875 ms
+2023-11-08T17:11:59.3343533+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.2843 ms
+2023-11-08T17:11:59.3564305+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 5.7655 ms
+2023-11-08T17:13:34.2460354+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 2.4156 ms
+2023-11-08T17:13:34.2682206+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 8.4758 ms
+2023-11-08T17:13:55.6097781+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.3082 ms
+2023-11-08T17:13:55.6796627+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 52.0051 ms
+2023-11-08T17:14:31.2754520+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.1511 ms
+2023-11-08T17:14:31.3228677+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 35.5106 ms
+2023-11-08T17:16:18.7549980+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.1027 ms
+2023-11-08T17:16:18.8346147+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 4.3321 ms
+2023-11-08T17:19:48.2186613+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.2234 ms
+2023-11-08T17:19:48.3367280+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 50.4230 ms
+2023-11-08T17:23:14.1075179+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 1.9694 ms
+2023-11-08T17:23:14.1749829+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 10.1671 ms
+2023-11-08T17:24:36.8599530+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 9.3331 ms
+2023-11-08T17:24:36.8795559+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 15.8653 ms
+2023-11-08T17:34:25.8625124+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.2162 ms
+2023-11-08T17:34:25.9200041+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 22.8829 ms
+2023-11-08T17:34:34.9771274+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.3587 ms
+2023-11-08T17:34:34.9891628+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 6.5751 ms
+2023-11-08T17:36:32.3872035+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0443 ms
+2023-11-08T17:36:32.4155124+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 16.3240 ms
+2023-11-08T17:36:44.4739431+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0496 ms
+2023-11-08T17:36:44.4828936+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 6.2254 ms
+2023-11-08T17:37:04.5319932+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.1038 ms
+2023-11-08T17:37:04.5630250+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 11.7550 ms
+2023-11-08T17:37:48.2068647+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.2711 ms
+2023-11-08T17:37:48.2273185+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 12.2956 ms
+2023-11-08T17:51:31.3680015+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.1949 ms
+2023-11-08T17:51:31.3933783+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 15.8647 ms
+2023-11-08T17:51:41.6356201+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0836 ms
+2023-11-08T17:51:41.6459347+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 6.2601 ms
+2023-11-08T17:52:06.0759000+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.3004 ms
+2023-11-08T17:52:06.0904348+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 3.5495 ms
+2023-11-08T17:52:14.4220429+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0963 ms
+2023-11-08T17:52:14.4327612+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 6.6302 ms
+2023-11-08T17:56:53.6834210+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.1086 ms
+2023-11-08T17:56:53.7329403+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 4.9257 ms
+2023-11-08T17:58:01.9278056+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 1.8453 ms
+2023-11-08T17:58:01.9994266+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 32.0132 ms
+2023-11-08T17:58:06.9841556+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0595 ms
+2023-11-08T17:58:06.9904478+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 3.6708 ms
+2023-11-08T17:58:19.0382815+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0698 ms
+2023-11-08T17:58:19.0497415+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 7.4359 ms
+2023-11-08T17:58:21.1098105+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 7.1014 ms
+2023-11-08T17:58:28.2324989+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.3181 ms
+2023-11-08T17:58:28.2418359+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 6.3201 ms
+2023-11-08T17:58:30.3896504+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.2756 ms
+2023-11-08T17:58:30.3988993+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 4.3416 ms
+2023-11-08T17:59:20.9394492+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0464 ms
+2023-11-08T17:59:20.9508393+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 6.0051 ms
+2023-11-08T17:59:28.4940550+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.2036 ms
+2023-11-08T17:59:28.5032222+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 4.5789 ms
+2023-11-08T17:59:55.3994282+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.9763 ms
+2023-11-08T17:59:55.4150047+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 9.2572 ms
+2023-11-08T18:00:03.0751642+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 2.3818 ms
+2023-11-08T18:00:03.0862543+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 5.9501 ms
+2023-11-08T18:00:08.2154054+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.1173 ms
+2023-11-08T18:00:08.2224213+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 4.3318 ms
+2023-11-08T18:00:29.5350332+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.5234 ms
+2023-11-08T18:00:29.5530396+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 14.6308 ms
+2023-11-08T18:01:05.4830532+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 7.8037 ms
+2023-11-08T18:01:05.5007725+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 9.8398 ms
+2023-11-08T18:02:11.1985660+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.1167 ms
+2023-11-08T18:02:11.2301117+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 17.2794 ms
+2023-11-08T18:02:16.2147043+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0585 ms
+2023-11-08T18:02:16.2193890+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 2.7676 ms
+2023-11-08T18:04:01.0702362+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0942 ms
+2023-11-08T18:04:01.0914286+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 10.0407 ms
+2023-11-08T18:04:04.4901958+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 7.4079 ms
+2023-11-08T18:07:01.6761888+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.1390 ms
+2023-11-08T18:07:01.6998682+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 19.4018 ms
+2023-11-08T18:07:12.0642590+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.3669 ms
+2023-11-08T18:07:12.0689338+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 2.3970 ms
+2023-11-08T18:10:31.9120388+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.3058 ms
+2023-11-08T18:10:31.9391572+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 12.6741 ms
+2023-11-08T18:10:53.4341479+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0278 ms
+2023-11-08T18:10:53.4479560+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 12.2921 ms
+2023-11-08T18:11:30.6161581+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0377 ms
+2023-11-08T18:11:30.6521838+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 31.7336 ms
+2023-11-08T18:12:10.4490938+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0602 ms
+2023-11-08T18:12:10.4719359+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 11.2466 ms
+2023-11-08T18:12:26.2655683+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.2314 ms
+2023-11-08T18:12:26.2767529+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 4.6534 ms
+2023-11-08T18:12:50.4333387+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0396 ms
+2023-11-08T18:12:50.4424481+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 4.2089 ms
+2023-11-08T18:13:40.1709828+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0387 ms
+2023-11-08T18:13:40.1830839+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 6.8781 ms
+2023-11-08T18:13:46.2973541+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.2571 ms
+2023-11-08T18:13:46.3067689+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 5.6426 ms
+2023-11-08T18:16:18.8256379+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0288 ms
+2023-11-08T18:16:18.8362037+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 5.7638 ms
+2023-11-08T18:16:47.1056270+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0350 ms
+2023-11-08T18:16:47.1188726+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 6.6085 ms
+2023-11-08T18:18:39.0320122+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 2.7266 ms
+2023-11-08T18:18:39.0509881+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 7.0036 ms
+2023-11-08T18:19:40.9991587+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0774 ms
+2023-11-08T18:19:41.0188523+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 9.9423 ms
+2023-11-08T18:19:45.1017291+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 13.5344 ms
+2023-11-08T18:21:47.4474410+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0767 ms
+2023-11-08T18:21:47.4720375+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 12.9398 ms
+2023-11-08T18:21:50.3584455+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 6.4889 ms
+2023-11-08T18:22:18.1619202+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0603 ms
+2023-11-08T18:22:18.1957537+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 17.7463 ms
+2023-11-08T18:24:00.5256199+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0924 ms
+2023-11-08T18:24:00.5592066+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 19.6477 ms
+2023-11-08T18:24:04.3510094+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 2.3989 ms
+2023-11-08T18:24:53.4863974+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0577 ms
+2023-11-08T18:24:53.5249773+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 32.2607 ms
+2023-11-08T18:25:16.0779474+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0761 ms
+2023-11-08T18:25:16.0886110+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 5.4967 ms
+2023-11-08T18:25:23.7013727+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.2153 ms
+2023-11-08T18:25:23.7099785+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 5.0206 ms
+2023-11-08T18:26:14.1710427+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0458 ms
+2023-11-08T18:26:14.1804082+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 7.9819 ms
+2023-11-08T18:26:41.2490023+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0731 ms
+2023-11-08T18:26:41.2691516+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 9.2915 ms
+2023-11-08T18:27:40.4593267+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0259 ms
+2023-11-08T18:27:40.4698897+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 5.1518 ms
+2023-11-08T18:28:11.0983217+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0608 ms
+2023-11-08T18:28:11.1270919+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 18.9469 ms
+2023-11-08T18:28:16.6987337+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0334 ms
+2023-11-08T18:28:16.7031053+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 2.2406 ms
+2023-11-08T18:28:33.5976273+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.2540 ms
+2023-11-08T18:28:33.6026139+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 3.1464 ms
+2023-11-08T18:28:47.4599904+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.4635 ms
+2023-11-08T18:28:47.4696022+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 6.0555 ms
+2023-11-08T18:28:50.3200066+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 5.6229 ms
+2023-11-08T18:28:55.3389681+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.4852 ms
+2023-11-08T18:28:55.3467513+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 4.2921 ms
+2023-11-08T18:29:29.1125553+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0948 ms
+2023-11-08T18:29:29.1334481+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 13.4780 ms
+2023-11-08T18:29:34.2401946+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.3662 ms
+2023-11-08T18:29:34.2486918+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 5.2423 ms
+2023-11-08T18:29:38.6369197+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 2.1936 ms
+2023-11-08T18:29:44.2959366+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0673 ms
+2023-11-08T18:29:44.3055808+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 6.0814 ms
+2023-11-08T18:30:21.0463818+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0587 ms
+2023-11-08T18:30:21.0682655+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 11.6286 ms
+2023-11-08T18:30:53.1516550+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.4658 ms
+2023-11-08T18:30:53.1755224+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 10.0322 ms
+2023-11-08T18:33:43.5982744+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.2386 ms
+2023-11-08T18:33:43.6556678+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 17.8700 ms
+2023-11-08T18:35:30.7115790+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.0587 ms
+2023-11-08T18:35:30.7288288+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 8.9345 ms
+2023-11-08T18:36:22.3518177+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.2845 ms
+2023-11-08T18:36:22.3828969+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 17.2637 ms
+2023-11-08T18:36:25.3939995+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 7.6019 ms
+2023-11-08T18:37:09.0707889+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "OPTIONS" "/Patient/GetPatientById" responded 204 in 0.3682 ms
+2023-11-08T18:37:09.0958579+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Patient/GetPatientById" responded 200 in 11.2971 ms

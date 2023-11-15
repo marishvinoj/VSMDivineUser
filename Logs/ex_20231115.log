@@ -1,0 +1,210 @@
+2023-11-15T12:32:03.4039468+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-15T12:32:04.7109950+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-15T12:32:04.7170872+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-15T12:32:04.7183926+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-15T12:32:04.7186826+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivineUser\VSMDivineUser"
+2023-11-15T12:34:37.5115568+05:30 [WRN] (Microsoft.EntityFrameworkCore.Query) The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-11-15T12:34:37.5197620+05:30 [WRN] (Microsoft.EntityFrameworkCore.Query) The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-11-15T12:34:39.0367025+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/UserRole" responded 200 in 9144.3767 ms
+2023-11-15T12:35:35.0398944+05:30 [ERR] (Microsoft.EntityFrameworkCore.Query) An exception occurred while iterating over the results of a query for context type '"VSMDivineUser.Models.Entities.UserDataContext"'."
+""System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-15T12:39:14.7909427+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-15T12:39:14.8916206+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-15T12:39:14.8982683+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-15T12:39:14.8995527+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-15T12:39:14.8997893+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivineUser\VSMDivineUser"
+2023-11-15T12:44:37.5062625+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-15T12:44:37.5765882+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-15T12:44:37.5800158+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-15T12:44:37.5807077+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-15T12:44:37.5808288+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivineUser\VSMDivineUser"
+2023-11-15T12:45:15.4105732+05:30 [WRN] (Microsoft.EntityFrameworkCore.Query) The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-11-15T12:45:15.4162302+05:30 [WRN] (Microsoft.EntityFrameworkCore.Query) The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-11-15T12:45:17.4184994+05:30 [ERR] (Microsoft.EntityFrameworkCore.Query) An exception occurred while iterating over the results of a query for context type '"VSMDivineUser.Models.Entities.UserDataContext"'."
+""System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-15T12:46:34.8887486+05:30 [ERR] (Microsoft.EntityFrameworkCore.Query) An exception occurred while iterating over the results of a query for context type '"VSMDivineUser.Models.Entities.UserDataContext"'."
+""System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-15T12:46:52.8828431+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-15T12:46:53.0328911+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-15T12:46:53.0400671+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-15T12:46:53.0417078+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-15T12:46:53.0422955+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivineUser\VSMDivineUser"
+2023-11-15T12:47:05.2763924+05:30 [WRN] (Microsoft.EntityFrameworkCore.Query) The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-11-15T12:47:05.2812973+05:30 [WRN] (Microsoft.EntityFrameworkCore.Query) The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-11-15T12:47:06.4207335+05:30 [ERR] (Microsoft.EntityFrameworkCore.Query) An exception occurred while iterating over the results of a query for context type '"VSMDivineUser.Models.Entities.UserDataContext"'."
+""System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-15T12:47:06.6393177+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/UserRole" responded 204 in 7902.9743 ms
+2023-11-15T12:47:48.5940148+05:30 [ERR] (Microsoft.EntityFrameworkCore.Query) An exception occurred while iterating over the results of a query for context type '"VSMDivineUser.Models.Entities.UserDataContext"'."
+""System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-15T12:48:14.9999642+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-15T12:48:15.2269035+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-15T12:48:15.2358276+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-15T12:48:15.2375668+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-15T12:48:15.2379217+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivineUser\VSMDivineUser"
+2023-11-15T12:48:36.3529448+05:30 [ERR] (Microsoft.EntityFrameworkCore.Query) An exception occurred while iterating over the results of a query for context type '"VSMDivineUser.Models.Entities.UserDataContext"'."
+""System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-15T13:02:13.1158872+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-15T13:02:13.1984423+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-15T13:02:13.2055354+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-15T13:02:13.2073214+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-15T13:02:13.2075726+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivineUser\VSMDivineUser"
+2023-11-15T13:02:33.5798633+05:30 [ERR] (Microsoft.EntityFrameworkCore.Query) An exception occurred while iterating over the results of a query for context type '"VSMDivineUser.Models.Entities.UserDataContext"'."
+""System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method16(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-15T13:05:44.3811687+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-15T13:05:44.4528633+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-15T13:05:44.4564594+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-15T13:05:44.4573180+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-15T13:05:44.4575797+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivineUser\VSMDivineUser"
+2023-11-15T13:05:46.6500296+05:30 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/UserRole" for actions - VSMDivineUser.Controllers.UserRoleController.GetAllUserRoles (VSMDivineUser),VSMDivineUser.Controllers.UserRoleController.GetAllUserRoles (VSMDivineUser). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-15T13:06:51.5857536+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-15T13:06:51.6751303+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-15T13:06:51.6791709+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-15T13:06:51.6800735+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-15T13:06:51.6802132+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivineUser\VSMDivineUser"
+2023-11-15T13:07:03.3972925+05:30 [ERR] (Microsoft.EntityFrameworkCore.Query) An exception occurred while iterating over the results of a query for context type '"VSMDivineUser.Models.Entities.UserDataContext"'."
+""System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method14(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method14(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-15T13:07:32.0979772+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/UserRole/GetAllUserRoles" responded 204 in 34699.1826 ms
+2023-11-15T13:08:29.2803182+05:30 [ERR] (Microsoft.EntityFrameworkCore.Query) An exception occurred while iterating over the results of a query for context type '"VSMDivineUser.Models.Entities.UserDataContext"'."
+""System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method14(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method14(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-15T13:09:14.2462058+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/UserRole/GetAllUserRoles" responded 204 in 47904.8200 ms
+2023-11-15T13:09:54.7550253+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/UserRole/GetAllUserRoles" responded 200 in 4195.3663 ms
+2023-11-15T13:12:14.0905973+05:30 [ERR] (Microsoft.EntityFrameworkCore.Query) An exception occurred while iterating over the results of a query for context type '"VSMDivineUser.Models.Entities.UserDataContext"'."
+""System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method14(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method14(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-15T13:12:16.2356390+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/UserRole/GetAllUserRoles" responded 204 in 5874.0243 ms
+2023-11-15T13:12:34.8936366+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-15T13:12:34.9596350+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-15T13:12:34.9640873+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-15T13:12:34.9649325+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-15T13:12:34.9650767+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivineUser\VSMDivineUser"
+2023-11-15T13:12:46.5328307+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/UserRole/GetAllUserRoles" responded 200 in 5305.1910 ms
+2023-11-15T13:13:27.1658804+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-15T13:13:27.2286943+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-15T13:13:27.2320968+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-15T13:13:27.2328758+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-15T13:13:27.2330004+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivineUser\VSMDivineUser"
+2023-11-15T13:13:48.0857882+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/UserRole/GetAllUserRoles" responded 200 in 14045.5738 ms
+2023-11-15T13:14:29.9744197+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-15T13:14:30.0417720+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-15T13:14:30.0482325+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-15T13:14:30.0495096+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-15T13:14:30.0497477+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivineUser\VSMDivineUser"
+2023-11-15T13:15:07.5567482+05:30 [WRN] (Microsoft.EntityFrameworkCore.Query) The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-11-15T13:15:07.5658032+05:30 [WRN] (Microsoft.EntityFrameworkCore.Query) The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-11-15T13:15:24.5237383+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/UserRole" responded 200 in 27359.2509 ms

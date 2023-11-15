@@ -1,0 +1,5 @@
+2023-11-09T18:21:45.5087209+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:7138"
+2023-11-09T18:21:45.7070700+05:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5073"
+2023-11-09T18:21:45.7303219+05:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-11-09T18:21:45.7326637+05:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-11-09T18:21:45.7330930+05:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Anuja\Repos\VSMDivine\VSMDivine"
