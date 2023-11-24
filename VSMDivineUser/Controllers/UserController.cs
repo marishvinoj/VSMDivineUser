@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using VSMDivineUser.Models;
 using VSMDivineUser.Service.Services;
 
@@ -230,6 +231,4 @@ namespace VSMDivineUser.Controllers
 
         }
     }
-
-
 }
