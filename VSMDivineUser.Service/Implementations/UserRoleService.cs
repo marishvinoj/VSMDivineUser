@@ -32,6 +32,7 @@ namespace Services.Implementations
         public async Task AddUserRole(UserRole userRole)
         {
             await _unitOfWork.UserRoleRepository.AddAsync(userRole);
+            await _unitOfWork.SaveChangesAsync();
         }
 
         public async Task UpdateUserRole(UserRole userRole)

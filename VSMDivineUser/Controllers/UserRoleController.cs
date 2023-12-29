@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Globalization;
 using VSMDivineUser.Models;
 using VSMDivineUser.Service.Services;
 
@@ -15,7 +16,7 @@ namespace VSMDivineUser.Controllers
             _userRoleService = userRoleService;
         }
 
-        [HttpGet("GetAllUserRoles")]
+        [HttpGet("AllUserRoles")]
         public async Task<ActionResult<IEnumerable<UserRole>>> GetAllUserRoles()
         {
             var users = await _userRoleService.GetAllUserRoles();
@@ -42,6 +43,8 @@ namespace VSMDivineUser.Controllers
         [HttpPost]
         public async Task<ActionResult> AddUserRole(UserRole userRole)
         {
+            userRole.CreatedDate = DateTime.UtcNow;
+            userRole.IsActive = true;
             await _userRoleService.AddUserRole(userRole);
             return CreatedAtAction(nameof(GetUserRoleById), new { id = userRole.Id }, userRole);
         }

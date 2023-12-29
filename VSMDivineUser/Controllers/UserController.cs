@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using VSMDivineUser.Models;
 using VSMDivineUser.Service.Services;
@@ -172,6 +173,7 @@ namespace VSMDivineUser.Controllers
 
     [ApiController]
     [Route("api/[controller]")]
+    [EnableCors("OpenCORSPolicy")]
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
