@@ -9,8 +9,7 @@ namespace VSMDivineUser.Models
         public string Email { get; set; }
         public string Password { get; set; }
         public bool Gender { get; set; }
-        public int MobileNumber { get; set; }
-        public string EmailId { get; set; }
+        public long MobileNumber { get; set; }
         public DateTime DOB { get; set; }
         public string Address { get; set; }
         public int? Pincode { get; set; }

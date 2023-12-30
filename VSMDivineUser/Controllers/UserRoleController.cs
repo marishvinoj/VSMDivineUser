@@ -43,8 +43,6 @@ namespace VSMDivineUser.Controllers
         [HttpPost]
         public async Task<ActionResult> AddUserRole(UserRole userRole)
         {
-            userRole.CreatedDate = DateTime.UtcNow;
-            userRole.IsActive = true;
             await _userRoleService.AddUserRole(userRole);
             return CreatedAtAction(nameof(GetUserRoleById), new { id = userRole.Id }, userRole);
         }

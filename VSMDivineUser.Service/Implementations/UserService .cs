@@ -27,16 +27,19 @@ namespace Services.Implementations
         public async Task AddUser(User user)
         {
             await _unitOfWork.UserRepository.AddAsync(user);
+            await _unitOfWork.SaveChangesAsync();
         }
 
         public async Task UpdateUser(User user)
         {
             await _unitOfWork.UserRepository.UpdateAsync(user);
+            await _unitOfWork.SaveChangesAsync();
         }
 
         public async Task DeleteUser(User user)
         {
             await _unitOfWork.UserRepository.DeleteAsync(user);
+            await _unitOfWork.SaveChangesAsync();
         }
     }
 }

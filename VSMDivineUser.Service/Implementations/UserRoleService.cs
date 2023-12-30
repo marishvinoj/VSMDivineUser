@@ -38,11 +38,13 @@ namespace Services.Implementations
         public async Task UpdateUserRole(UserRole userRole)
         {
             await _unitOfWork.UserRoleRepository.UpdateAsync(userRole);
+            await _unitOfWork.SaveChangesAsync();
         }
 
         public async Task DeleteUserRole(UserRole userRole)
         {
             await _unitOfWork.UserRoleRepository.DeleteAsync(userRole);
+            await _unitOfWork.SaveChangesAsync();
         }
     }
 }
