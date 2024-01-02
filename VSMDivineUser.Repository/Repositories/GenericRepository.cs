@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using VSMDivineUser.Models.Dtos;
 using VSMDivineUser.Models.Entities;
 using VSMDivineUser.Repository.IRepositories;
 

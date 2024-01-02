@@ -1,7 +1,10 @@
-﻿using VSMDivineUser.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using VSMDivineUser.Models;
+using VSMDivineUser.Models.Dtos;
 using VSMDivineUser.Models.Entities;
 using VSMDivineUser.Repository.IRepositories;
 using VSMDivineUser.Repository.Repositories;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace VSMDivineUser.UnitOfWork
 {
@@ -11,6 +14,7 @@ namespace VSMDivineUser.UnitOfWork
         private IRepository<User> _userRepository;
         private IRepository<UserRole> _userRoleRepository;
         private IRepository<UserRoleMapping> _userRoleMappingRepository;
+        private ICustomRepo<UserRoleMapping> _customRepo;
 
         public UnitOfWork(UserDataContext context)
         {
@@ -44,9 +48,25 @@ namespace VSMDivineUser.UnitOfWork
             }
         }
 
+        public ICustomRepo<UserRoleMapping> CustomRepo
+        {
+            get
+            {
+                _customRepo ??= new CustomRepo<UserRoleMapping>(_context);
+                return _customRepo;
+            }
+        }
+
         public async Task<int> SaveChangesAsync()
         {
-            return await _context.SaveChangesAsync();
+            try
+            {
+                return await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                return 0;
+            }
         }
 
         public void Dispose()

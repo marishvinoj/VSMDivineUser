@@ -8,6 +8,7 @@ namespace VSMDivineUser.UnitOfWork
         IRepository<User> UserRepository { get; }
         IRepository<UserRole> UserRoleRepository { get; }
         IRepository<UserRoleMapping> UserRoleMappingRepository { get; }
+        ICustomRepo<UserRoleMapping> CustomRepo { get; }
         Task<int> SaveChangesAsync();
     }
 }

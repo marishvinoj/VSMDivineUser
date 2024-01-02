@@ -1,5 +1,6 @@
 ﻿// UserService.cs
 using VSMDivineUser.Models;
+using VSMDivineUser.Models.Dtos;
 using VSMDivineUser.Service.Services;
 using VSMDivineUser.UnitOfWork;
 
@@ -14,9 +15,32 @@ namespace Services.Implementations
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<IEnumerable<UserRoleMapping>> GetAllUserRoleMappings(int pageIndex = 1, int pageSize = 10)
+        public async Task Post(UserRoleMappingDto usrRoleMapDto)
         {
-            return await _unitOfWork.UserRoleMappingRepository.GetAllAsync(pageIndex, pageSize);
+            foreach (var item in usrRoleMapDto.Roles)
+            {
+                var userRoleMapping = new UserRoleMapping
+                {
+                    Id = 0,
+                    RoleId = item.Id,
+                    UserId = usrRoleMapDto.UserID,
+                    IsActive = true,
+                    CreatedDate = DateTime.UtcNow
+                };
+                await AddUserRoleMapping(userRoleMapping);
+            }
+            await _unitOfWork.SaveChangesAsync();
+        }
+
+        public async Task<IEnumerable<UserRoleMapUserListDto>> GetAllUserRoleMappings(int pageIndex = 1, int pageSize = 10)
+        {
+            var res = await _unitOfWork.CustomRepo.GetaAllUserRoleMapping(pageIndex, pageSize);
+            return res;
+        }
+
+        public async Task<IEnumerable<UserRoleMapListDto>> GetUserRoleMappingByUserId(int UserID)
+        {
+            return await _unitOfWork.CustomRepo.GetUserRoleMappingByUserId(UserID);
         }
 
         public async Task<UserRoleMapping> GetUserRoleMappingById(int id)
