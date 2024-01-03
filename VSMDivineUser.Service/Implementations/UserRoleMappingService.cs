@@ -1,4 +1,5 @@
 ﻿// UserService.cs
+using System.Data;
 using VSMDivineUser.Models;
 using VSMDivineUser.Models.Dtos;
 using VSMDivineUser.Service.Services;
@@ -17,6 +18,7 @@ namespace Services.Implementations
 
         public async Task Post(UserRoleMappingDto usrRoleMapDto)
         {
+            await MultiDeleteByUserId(usrRoleMapDto);
             foreach (var item in usrRoleMapDto.Roles)
             {
                 var userRoleMapping = new UserRoleMapping
@@ -29,6 +31,22 @@ namespace Services.Implementations
                 };
                 await AddUserRoleMapping(userRoleMapping);
             }
+            await _unitOfWork.SaveChangesAsync();
+        }
+
+        public async Task<IEnumerable<UserRoleMapping>> GetaAllUserRoleMappingByUserId(int UserId)
+        {
+            return await _unitOfWork.CustomRepo.GetaAllUserRoleMappingByUserId(UserId);
+        }
+
+        public async Task MultiDeleteByUserId(UserRoleMappingDto Roles)
+        {
+            var users = await _unitOfWork.CustomRepo.GetaAllUserRoleMappingByUserId(Roles.UserID);
+            foreach (var item in users)
+            {
+                await _unitOfWork.UserRoleMappingRepository.DeleteAsync(item);
+            }
+
             await _unitOfWork.SaveChangesAsync();
         }
 

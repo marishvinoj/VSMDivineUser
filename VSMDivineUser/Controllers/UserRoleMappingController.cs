@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Services.Implementations;
 using System.Globalization;
 using VSMDivineUser.Models;
 using VSMDivineUser.Models.Dtos;
@@ -44,8 +45,6 @@ namespace VSMDivineUser.Controllers
         [HttpPost]
         public async Task<ActionResult> AddUserRoleMapping(UserRoleMappingDto usrRoleMap)
         {
-            var res = await _userRoleMappingService.GetUserRoleMappingByUserId(usrRoleMap.UserID);
-
             await _userRoleMappingService.Post(usrRoleMap);
             //return CreatedAtAction(nameof(GetUserRoleMappingById), new { id = userRoleMapping.Id }, userRoleMapping);
 
@@ -76,6 +75,13 @@ namespace VSMDivineUser.Controllers
             await _userRoleMappingService.DeleteUserRoleMapping(userRoleMapping);
             return NoContent();
 
+        }
+
+        [HttpGet("GetaAllUserRoleMappingByUserId")]
+        public async Task<IEnumerable<UserRoleMapping>> GetaAllUserRoleMappingByUserId(int UserID)
+        {
+            var res = await _userRoleMappingService.GetaAllUserRoleMappingByUserId(UserID);
+            return res;
         }
     }
 

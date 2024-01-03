@@ -8,6 +8,7 @@ namespace VSMDivineUser.Service.Services
         Task Post(UserRoleMappingDto usrRoleMapDto);
         Task<IEnumerable<UserRoleMapUserListDto>> GetAllUserRoleMappings(int pageIndex = 1, int pageSize = 10);
         Task<IEnumerable<UserRoleMapListDto>> GetUserRoleMappingByUserId(int UserID);
+        Task<IEnumerable<UserRoleMapping>> GetaAllUserRoleMappingByUserId(int UserId);
         Task<UserRoleMapping> GetUserRoleMappingById(int id);
         Task AddUserRoleMapping(UserRoleMapping user);
         Task UpdateUserRoleMapping(UserRoleMapping user);

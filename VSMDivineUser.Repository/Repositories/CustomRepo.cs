@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Reflection.Metadata;
 using VSMDivineUser.Models;
 using VSMDivineUser.Models.Dtos;
 using VSMDivineUser.Models.Entities;
@@ -57,26 +58,23 @@ namespace VSMDivineUser.Repository.Repositories
                                  UserName = g.Key.Name,
                                  RoleNames = string.Join(",", g.Select(x => x.ur.RoleName))
                              }).Where(x=> x.RoleNames != "").ToListAsync();
-
-                //var result = await _context.Users
-                //.Join(_context.UserRoleMappings , u => u.Id, urm => urm.UserId, (u, urm) => new { u, urm })
-                //.Join(_context.UserRoles, ur => ur.urm.RoleId, r => r.Id, (ur, r) => new { ur, r })
-                //.GroupBy(ur => new { ur.u.Id, ur.u.Name, urm.Id })
-                //.Select(g => new UserRoleMapUserListDto
-                //{
-                //    Id = g.
-                //    UserID = g.Key.Id,
-                //    UserName = g.Key.Name,
-                //    RoleNames = string.Join(",", g.Select(ur => ur.r.RoleName.ToString()))
-
-                //})
-                //.ToListAsync();
                 return result;
             }
             catch (Exception ex)
             {
                 return null;
             }
+        }
+
+        public async Task<IEnumerable<UserRoleMapping>> GetaAllUserRoleMappingByUserId(int UserId)
+        {
+            var result = await (from urm in _context.UserRoleMappings
+                                join u in _context.Users on urm.UserId equals u.Id into urmGroup
+                                from u in urmGroup.DefaultIfEmpty()
+                                where urm.UserId == urm.UserId
+                                select urm
+                                ).ToListAsync();
+            return result;
         }
 
         private async Task<List<UserRoleMapListDto>> GetUserRoleMappingList()

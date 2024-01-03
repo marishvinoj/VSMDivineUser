@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VSMDivineUser.Models;
 using VSMDivineUser.Models.Dtos;
 
 namespace VSMDivineUser.Repository.IRepositories
@@ -11,5 +12,6 @@ namespace VSMDivineUser.Repository.IRepositories
     {
         Task<IEnumerable<UserRoleMapListDto>> GetUserRoleMappingByUserId(int UserID);
         Task<IEnumerable<UserRoleMapUserListDto>> GetaAllUserRoleMapping(int pageIndex, int pageSize);
+        Task<IEnumerable<UserRoleMapping>> GetaAllUserRoleMappingByUserId(int UserId);
     }
 }
