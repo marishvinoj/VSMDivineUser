@@ -19,6 +19,10 @@ namespace Services.Implementations
         public async Task Post(UserRoleMappingDto usrRoleMapDto)
         {
             await MultiDeleteByUserId(usrRoleMapDto);
+            if (usrRoleMapDto == null || !usrRoleMapDto.Roles.Any())
+            {
+                return;
+            }
             foreach (var item in usrRoleMapDto.Roles)
             {
                 var userRoleMapping = new UserRoleMapping
@@ -42,6 +46,11 @@ namespace Services.Implementations
         public async Task MultiDeleteByUserId(UserRoleMappingDto Roles)
         {
             var users = await _unitOfWork.CustomRepo.GetaAllUserRoleMappingByUserId(Roles.UserID);
+
+            if (!users.Any())
+            {
+                return;
+            }
             foreach (var item in users)
             {
                 await _unitOfWork.UserRoleMappingRepository.DeleteAsync(item);

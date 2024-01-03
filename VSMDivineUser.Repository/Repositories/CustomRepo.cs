@@ -71,7 +71,7 @@ namespace VSMDivineUser.Repository.Repositories
             var result = await (from urm in _context.UserRoleMappings
                                 join u in _context.Users on urm.UserId equals u.Id into urmGroup
                                 from u in urmGroup.DefaultIfEmpty()
-                                where urm.UserId == urm.UserId
+                                where urm.UserId == urm.UserId && urm.UserId == UserId
                                 select urm
                                 ).ToListAsync();
             return result;
